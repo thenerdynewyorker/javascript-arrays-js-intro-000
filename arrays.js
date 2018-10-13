@@ -22,12 +22,26 @@ var tomatoSauceIngredients = [
   'oregano'
 ]
 
-var wagCharacters = ["will", "grace", 'karen', 'jack'];
-
 var chocolateBars = ['snickers','hundred grand', 'kitkat', 'skittles']
 
-var superheroines = ['catwoman', 'she-hulk'];
-superheroines.push('wonder woman');
+function addElementToBeginningOfArray(array, element);{
+  array=[element,...array];
+  return array
+}
 
-var cities = ["New York", "San Fran"];
-cities.unshift("Philly");
+function destructivelyAddElementToBeginningOfArray (array, element);{
+  var purple;
+  purple = [element,...array];
+  return purple;
+}
+
+function addElementToEndOfArray(element, array){
+  array=[...array, element];
+  return array
+}
+
+function destructivelyAddElementToEndOfArray (element, array) {
+  var blue;
+  blue = [element,...array];
+  return blue;
+}
