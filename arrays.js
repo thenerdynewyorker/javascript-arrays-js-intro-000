@@ -25,3 +25,7 @@ var tomatoSauceIngredients = [
 var wagCharacters = ["will", "grace", 'karen', 'jack'];
 
 var chocolateBars = ['snickers','hundred grand', 'kitkat', 'skittles']
+
+var superheroines = ['catwoman', 'she-hulk'];
+superheroines.push('wonder woman');
+
