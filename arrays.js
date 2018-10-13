@@ -45,3 +45,7 @@ function destructivelyAddElementToEndOfArray (element, array) {
   blue = [element,...array];
   return blue;
 }
+
+function accessElementInArray(array, index){
+  return array[index];
+}
