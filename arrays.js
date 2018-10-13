@@ -21,3 +21,5 @@ var tomatoSauceIngredients = [
   'basil',
   'oregano'
 ]
+
+var wagCharacters = ["will", "grace", 'karen', 'jack'];
