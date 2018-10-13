@@ -29,4 +29,5 @@ var chocolateBars = ['snickers','hundred grand', 'kitkat', 'skittles']
 var superheroines = ['catwoman', 'she-hulk'];
 superheroines.push('wonder woman');
 
-var cities = ["New York", "San Fran"]
+var cities = ["New York", "San Fran"];
+cities.unshift("Philly");
