@@ -52,12 +52,12 @@ function accessElementInArray(array, index){
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
   array.shift();
-  return array; 
+  return array;
 }
 
 function removeElementFromBeginningOfArray(array){
   array = array.slice(1)
-  array 
+  array
 }
 
 function destructivelyRemoveElementFromEndOfArray(array){
