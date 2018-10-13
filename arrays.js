@@ -23,3 +23,5 @@ var tomatoSauceIngredients = [
 ]
 
 var wagCharacters = ["will", "grace", 'karen', 'jack'];
+
+var chocolateBars = ['snickers','hundred grand', 'kitkat', 'skittles']
