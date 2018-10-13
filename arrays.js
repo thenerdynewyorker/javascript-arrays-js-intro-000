@@ -54,3 +54,13 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   array.shift();
   return array; 
 }
+
+function removeElementFromBeginningOfArray(array){
+  array = array.slice(1)
+  array 
+}
+
+function destructivelyRemoveElementFromEndOfArray(array){
+  array=array.pop()
+  array
+}
