@@ -23,7 +23,7 @@ var tomatoSauceIngredients = [
 ]
 
 var chocolateBars;
-chocolateBars = ['snickers','hundred grand', 'kitkat', 'skittles'];
+chocolateBars = ["snickers","hundred grand", "kitkat", "skittles"];
 
 function addElementToBeginningOfArray(array, element);{
   array=[element,...array];
